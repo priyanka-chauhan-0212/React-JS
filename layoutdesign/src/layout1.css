@@ -1,0 +1,173 @@
+.layout-first {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+
+.firstlayout-left {
+    width: 100%;
+    height: 100%;
+
+}
+
+.firstlayout-right {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+
+}
+
+
+.firstimg {
+    margin-top: 50px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.secondimg {
+    width: 100%;
+    height: 970px;
+    margin: 0px;
+    object-fit: cover;
+}
+
+span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.lowerportion {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    border: 1px solid wheat;
+    border-radius: 50%;
+    background-color: #6790a1;
+    z-index: 1;
+}
+
+.blue:hover {
+    background-color: white;
+}
+
+.silver {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    border: 1px solid wheat;
+    border-radius: 50%;
+    background-color: silver;
+    z-index: 1;
+}
+
+.silver:hover {
+    background-color: white;
+}
+
+.gold {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    border: 1px solid wheat;
+    border-radius: 50%;
+    background-color: gold;
+    z-index: 1;
+}
+
+.gold:hover {
+    background-color: white;
+}
+
+.first-button {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.layout-second {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.layout-third {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.boximg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: 0px;
+
+}
+
+.houseimg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: 0px;
+}
+
+.secondlayout-left {
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+}
+
+.secondlayout-right {
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+}
+
+.thirdlayout-left {
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+}
+
+.thirdlayout-right {
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+}
+
+.bemsimg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: 0px;
+}
+
+.mobileimg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: 0px;
+   
+}
